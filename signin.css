@@ -59,18 +59,38 @@ img.user {
   color: #fff;
   font-family: 'Noto Serif', serif;
   font-weight: 800 !important;
+  letter-spacing: 2px;
 }
 
 .mail,
 .password{
   font-family: 'Noto Serif', serif;
 }
+
 .remember_psw{
   display: block;
   text-align: right;
   font-size: 12px;
   text-decoration: none;
   color: #fff;
+  padding-top: 5px;
+}
+
+.remember_psw a{
+  color: #fff;
+}
+
+.forgot_psw{
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.forgot_psw:hover,
+.remember_psw:hover{
+    color: #fff;
 }
 
 .form-control{
@@ -82,13 +102,18 @@ img.user {
 }
 
 .form-floating>label{
-   padding: 10px 0 0 10px;
+   padding: 16px 0 0 20px;
    color: #fff;
+   text-transform: uppercase;
+   font-size: 12px;
+   font-family: 'Titillium Web', sans-serif;
+   font-weight: 800;
+   letter-spacing: 2px;
 }
 
-.img-fluid{
+/*.img-fluid{
   height: 100%;
-}
+}*/
 
 .btn{
   background-color: #1C3763;
@@ -96,8 +121,15 @@ img.user {
   height: 50px;
   padding: 0px;
   color: #fff;
-  font-size: 16px;
-  font-family: 'Noto Serif', serif;
+  font-size: 12px;
+  font-family: 'Titillium Web', sans-serif;
+   font-weight: 800;
+   letter-spacing: 2px;
+}
+
+.checkbox{
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 1px;
 }
 
 .arrow{
@@ -112,7 +144,7 @@ img.user {
   position: fixed;
 }
 
- @media only screen and (max-width:1024px){
+ @media only screen and (max-width:1320px){
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
