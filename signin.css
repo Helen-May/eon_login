@@ -1,0 +1,166 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: auto;
+  background:  url("img/gradient.jpeg") no-repeat top center;
+}
+
+.container{
+  height: 100vh;
+}
+
+.row{
+  height: 100%;
+}
+
+img.user {
+  width: 100%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  position: absolute;
+  top: 160px;
+  right: 270px;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-control:focus{
+  background-color: transparent;
+  color: #fff;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.fw-normal{
+  text-align: left;
+  color: #fff;
+  font-family: 'Noto Serif', serif;
+  font-weight: 800 !important;
+}
+
+.mail,
+.password{
+  font-family: 'Noto Serif', serif;
+}
+.remember_psw{
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.form-control{
+  background: transparent;
+  border-radius: 25px;
+  border-bottom-right-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+  height: 50px !important;
+}
+
+.form-floating>label{
+   padding: 10px 0 0 10px;
+   color: #fff;
+}
+
+.img-fluid{
+  height: 100%;
+}
+
+.btn{
+  background-color: #1C3763;
+  border-radius: 25px;
+  height: 50px;
+  padding: 0px;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Noto Serif', serif;
+}
+
+.arrow{
+  width: 20px;
+  padding-left: 8px;
+}
+.btn:hover{
+  color: #fff;
+}
+
+.header{
+  position: fixed;
+}
+
+ @media only screen and (max-width:1024px){
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    .user{
+      position: fixed;
+      right: 0;
+      bottom: auto;
+      left: 0;
+      z-index: 1030;
+    }
+    img.user {
+    width: 78%;
+    height: auto;
+    }
+    .form-signin{
+      margin: 0 auto;
+    padding-top: 80px;
+    position: unset;
+    }
+    .primary{
+      margin-top: 80px;
+    }
+  }
+
+@media and (max-width: 768px){
+  img.user {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width:425px){
+  img.user {
+    height: 40%;
+    bottom: auto;
+  }
+  .primary{
+      margin-top: 50px;
+    }
+  .form-signin{
+    position: unset;
+    padding-top: 100px;
+    margin: auto;
+  }
+
+}
+@media only screen and (max-width:375px){
+  .form-signin{
+    padding-top: 145px;
+  }
+}
